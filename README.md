@@ -7,13 +7,13 @@ Keep in mind source icon and splash image must be square in dimension, and size 
 So for example if maximum height/width of to be generated splash screen in resources folder of android / ios build is 2048px. Then source image say splash.png should be atleast of 2048x2048 px dimension. Same goes for icons.
 
 
-node index.js "<source image path>" "<destination images selector>"
+`node index.js "<source image path>" "<destination images selector>"`
 
 So below command will pickup splash.png from desktop generate all new screens for android splash screen.
 
-node index.js "/Users/Desktop/splash.png" "/Users/Desktop/projects/GenericApp/platforms/android/res/**/screen.png"
+`node index.js "/Users/Desktop/splash.png" "/Users/Desktop/projects/GenericApp/platforms/android/res/**/screen.png"`
 
 
 For ios check below eg.
 
-node index.js "/Users/Desktop/icon.png" "/Users/Desktop/projects/GenericApp/platforms/ios/GenericApp/Images.xcassets/AppIcon.appiconset/*.png"
+`node index.js "/Users/Desktop/icon.png" "/Users/Desktop/projects/GenericApp/platforms/ios/GenericApp/Images.xcassets/AppIcon.appiconset/*.png"`
