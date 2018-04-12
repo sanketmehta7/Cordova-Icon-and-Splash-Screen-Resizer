@@ -17,3 +17,5 @@ So below command will pickup splash.png from desktop generate all new screens fo
 For ios check below eg.
 
 `node index.js "/Users/Desktop/icon.png" "/Users/Desktop/projects/GenericApp/platforms/ios/GenericApp/Images.xcassets/AppIcon.appiconset/*.png"`
+
+![repo](https://user-images.githubusercontent.com/1917527/38658995-01b2f41c-3e45-11e8-982a-bf0827376a37.png)
